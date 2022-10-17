@@ -2,6 +2,7 @@ import Head from "next/head";
 import styled from "styled-components";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
+import SideBar from "../components/SideBar";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.container}>
+        <SideBar />
         <Header />
       </main>
     </div>
